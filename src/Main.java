@@ -5,7 +5,8 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new LucasSeries(),
-			new CalculateArea()
+			new CalculateArea(),
+			new Fibonacci()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
