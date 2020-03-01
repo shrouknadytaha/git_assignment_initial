@@ -6,6 +6,9 @@ public class Main {
 			new ReallySimpleSubscriber(),
 			new AreaSphere(),
 		
+			new LucasSeries(),
+			new CalculateArea(),
+			new Fibonacci()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
